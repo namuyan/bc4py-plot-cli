@@ -1,6 +1,6 @@
 [package]
 name = "bc4py-plot-cli"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["namuyan <namuyan@kumacoin.dev>"]
 edition = "2018"
 license = "MIT"
@@ -13,6 +13,6 @@ clap = "3.0.0-beta.1"
 hex = "0.4"
 
 [dependencies.bc4py_hash]
-version = "0.1.2"
+version = "0.1.3"
 # path = "..\\bc4py_hash"
 features= ["poc", "progress-bar"]

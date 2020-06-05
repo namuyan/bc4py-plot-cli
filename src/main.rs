@@ -36,6 +36,7 @@ fn main() {
         .version(env!("CARGO_PKG_VERSION"))
         .author(env!("CARGO_PKG_AUTHORS"))
         .about("bc4py proof of capacity plot file generation tool")
+        .after_help("plot file size calculation is simple, nonce / 2000 Gb.")
         .subcommand(plot_app)
         .subcommand(convert_app)
         .get_matches();
